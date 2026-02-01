@@ -27,9 +27,10 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: var(--border);
+    border: var(--border); 
     padding: 20px;
-    width: 440px;
+    width: 90%;
+    max-width: 440px; 
     box-shadow: var(--box-shadow);
     border-radius: 20px;
     color: white;
@@ -128,4 +129,20 @@ h1 {
 
 .text span:hover {
     text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 50px; 
+    }
+
+    .box-input input {
+        padding: 10px 20px 10px 10px;
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 18px;
+        padding: 12px;
+    }
 }
