@@ -145,4 +145,10 @@ h1 {
         font-size: 18px;
         padding: 12px;
     }
+    .Renember label {
+        font-size:14px;
+    }
+    .Renember a {
+        font-size: 13px;
+    }
 }
